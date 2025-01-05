@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div class="navbar">
+          <div class="logo">LOGO</div>
+          <nav>
+            <ul>
+              <li class="menu-item active"><a href="index.html">Home</a></li>
+              <li class="menu-item"><a href="produk.html">Product</a></li>
+              <li class="menu-item"><a href="kontak.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Main Content -->
+      <main>
+        <!-- Product Recommendations -->
+        <section id="product-recommendation" class="content-section">
+          <h2>What You Might Like</h2>
+          <div class="product-recommendations">
+            <div class="product-item">
+              <img src="imgbox/4090.jpg" alt="Product 1" />
+              <p>VGA Gigabyte GeForce RTX 4090 GAMING OC 24G 24GB GDDR6X</p>
+              <span>Rp32.000.000</span>
+            </div>
+            <div class="product-item">
+              <img src="imgbox/trucker.jpg" alt="Product 2" />
+              <p>
+                WJSTUFF x TRUCKER - Jaket Synthetic Suede Pria soft Vintage -
+                Hitam, S
+              </p>
+              <span>Rp495.000</span>
+            </div>
+            <div class="product-item">
+              <img src="imgbox/kulkas.jpg" alt="Product 3" />
+              <p>
+                POLYTRON KULKAS SIDE BY SIDE 460L - 2 PINTU SILVER / PRS-460B
+              </p>
+              <span>Rp6.199.000</span>
+            </div>
+          </div>
+          <button
+            class="view-more-btn"
+            onclick="window.location.href='produk.html'"
+          >
+            View All Products
+          </button>
+        </section>
+      </main>
+
+      <!-- Contact Us Section -->
+      <section id="contact-us" class="content-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us!</p>
+        <button
+          class="contact-btn"
+          onclick="window.location.href='kontak.html'"
+        >
+          Go to Contact
+        </button>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>© 2024 Toko Karya. All Rights Reserved</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
